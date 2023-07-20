@@ -1,0 +1,364 @@
+
+ body {
+  background-color: black;
+  margin: 0;
+}
+.header {
+  background-color: black;
+  overflow: hidden;
+}
+.logo {
+  padding-left: 6.1rem;
+
+  margin-top: 0.7rem;
+}
+
+.li {
+  color: white;
+  float: right;
+  padding: 1rem;
+  list-style-type: none;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 0.98rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+.item:hover {
+  color: green;
+}
+.nav1 {
+  padding-right: 5.5rem;
+  float: right;
+}
+.div1 {
+  background: hsla(159, 82%, 55%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(159, 82%, 55%, 1) 0%,
+    hsla(206, 98%, 48%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(159, 82%, 55%, 1) 0%,
+    hsla(206, 98%, 48%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(159, 82%, 55%, 1) 0%,
+    hsla(206, 98%, 48%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2FEAA8", endColorstr="#028CF3", GradientType=1 );
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+  color: white;
+  height: 12.5rem;
+}
+.text1 {
+  color: white;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: -1.92px;
+  margin-left: -2rem;
+  margin-top: 0rem;
+  margin-right: 5rem;
+  text-align: left;
+  }
+.image{
+    float: left;
+    margin-top: -8rem;
+    margin-left: 11.3rem;
+}
+.img1{
+    margin-right: 0rem;
+}    
+.button1{
+    background-color: white;
+    border-radius: 5rem;
+    border: none;
+    padding:1.1rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    
+}
+.button1:hover{
+    background-color: rgba(31, 179, 11, 0.795);
+    border-radius: 5rem;
+    border: none;
+    zoom: 1.02;
+    
+}
+.buttonlink{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding:1rem;
+}
+.div2 {
+  background-color: white;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  height: 36rem;
+}
+.heading1{
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 60px;
+  margin-top: 0;
+  font-size: 3.5rem;
+  
+}
+.box1images{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  
+}
+.box1img1{
+ text-align: center;
+ max-width: 20%;
+  
+}
+.box1img1>img{
+  border-radius: 50%;
+}
+.box1img1>:nth-child(2){
+    font-weight: bold;
+}
+
+.heading{
+  font-weight: bolder;
+  font-size: larger;
+}
+.div3 {
+  background: hsla(159, 82%, 55%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(159, 82%, 55%, 1) 0%,
+    hsla(206, 98%, 48%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(159, 82%, 55%, 1) 0%,
+    hsla(206, 98%, 48%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(159, 82%, 55%, 1) 0%,
+    hsla(206, 98%, 48%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2FEAA8", endColorstr="#028CF3", GradientType=1 );
+  text-align: center;
+  padding: 8rem;
+  height: 15rem;
+  font-size: x-large;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.text3{
+    font-weight: bolder;
+    line-height: 1.2;
+    letter-spacing: -1.92px;
+}
+.div4 {
+  background-color: white;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  margin-bottom: 0rem;
+}
+.text4{
+  text-align: center;
+  margin-top: 0;
+  padding-top: 4rem;
+  font-weight: bold;
+}
+.list2{
+  padding: 3.5rem;
+  font-weight: bolder;
+  font-size: large;
+  margin-bottom: 0rem;
+}
+
+.help:hover{
+background-color: rgb(223, 214, 214);
+cursor: pointer;
+text-decoration: none;
+}
+.help{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  padding:1.4rem;
+}
+ details>p,li{
+  font-weight: normal;
+  margin-left: 40px;
+  font-size: medium;
+ }
+.box2content2{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.div5 {
+  background: hsla(159, 82%, 55%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(159, 82%, 55%, 1) 0%,
+    hsla(206, 98%, 48%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(159, 82%, 55%, 1) 0%,
+    hsla(206, 98%, 48%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(159, 82%, 55%, 1) 0%,
+    hsla(206, 98%, 48%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2FEAA8", endColorstr="#028CF3", GradientType=1 );
+  text-align: center;
+  padding: 7rem;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  color: white;
+  height: 15rem;
+  font-size: 2.2rem;
+  font-weight: bolder;
+  
+}
+.text5{
+    font-weight: bolder;
+    line-height: 1.2;
+    letter-spacing: -1.92px;
+}
+.button2{
+    border: none;
+    border-radius: 5rem;
+    background-color: white;
+    padding: 1.1rem;
+}
+.button2:hover{
+    background-color: rgba(31, 179, 11, 0.795);
+    border-radius: 5rem;
+    border: none;
+    zoom: 1.02;
+    
+}
+.buttonlink2{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding:1rem;
+}
+.div6{
+    background-color: black;
+    
+    
+}
+.logo1{
+  margin-top: 6rem;
+  padding-left: 6.1rem;
+}
+.div6_1{
+  float: right;
+  margin-right: 58rem;
+  margin-top: -4.5rem;
+}
+.company{
+  color: gray;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: small;
+  letter-spacing: .1rem;
+}
+.ul1{
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif; 
+  font-weight: bolder;
+}
+.div6_2{
+  float: right;
+  margin-right: 46rem;
+  margin-top: -10.3rem;
+
+}
+.Communities{
+  color: gray;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: small;
+  letter-spacing: .1rem;
+}
+.ul2{
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  
+}
+.div6_3{
+  float: right;
+  margin-right: 34rem;
+  margin-top: -14.8rem;
+}
+
+.links{
+  color: gray;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: small;
+  letter-spacing: .1rem;
+}
+.ul3{
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+}
+.ul4{
+  float: right;
+  padding: .5rem;
+  color: white;
+  font-size: xx-large;
+}
+.div6_4{
+  float: right;
+  margin-right: 10rem;
+  margin-top: -13rem;
+}
+.div6_5{
+  float: left;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  margin-left: 6rem;
+}
+.ul5{
+  text-decoration: none;
+  color: gray;
+  font-size: .7rem;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  padding: .8rem;
+}
+@media (max-width=400px){
+  
+}
