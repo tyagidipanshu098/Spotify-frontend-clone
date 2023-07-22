@@ -4,167 +4,233 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Spotify</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style2.css" />
     <script src="https://kit.fontawesome.com/91d5dfa1bc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap"     rel="stylesheet">
+    
   </head>
   <body>
-    <div class="banner">
-      <header class="header">
+
+
+
+
+    <div class="d1 d">
+      <div class="header-img">
         <a href="#">
         <img
           class="logo"
           src="images/logo.jpg"
-          width="150rem"
         />
       </a>
-        <nav class="nav1">
-          <b>
-            <a href="#" class="li item">Log in</a>
-            <a href="#" class="li item">Sign up</a>
-            <a class="li separator">|</a>
-            <a href="#" class="li item">Download</a>
-            <a href="#" class="li item">Support</a>
-            <a href="#" class="li item">Premium</a>
-          </b>
-        </nav>
-      </header>
-    </div>
-    <main>
-      <div class="div1">
-        <div class="image">
-          <img class="img1" src="images/mobile1.png" alt="phone image" width="86.5%"/>
-        </div>
-        <h1 class="text1">Play millions of songs <br> and podcasts, for free.</h1>
-        <button class="button1">
-          <a class="buttonlink" href="#">GET SPOTIFY FREE</a>
-        </button>
       </div>
-      <section class="div2">
-        <div class="heading1">Why Spotify?</div>
-          <div class="box1images">
-            <div class="box1img1">
-              <img src="images/imags4.jpeg" width="60%">
-              <p>Play your favorites.</p>
-              <p>Listen to the songs you love, and discover new music and podcasts.</p>
+      <div class="menu">
+          <a href="#" class="li item">Log in</a>
+          <a href="#" class="li item">Sign up</a>
+          <a class="li separator">|</a>
+          <a href="#" class="li item k">Download</a>
+          <a href="#" class="li item k">Support</a>
+          <a href="#" class="li item k">Premium</a>
+          <i class="fa-solid fa-xmark item" style="color: white; font-size: larger" onclick="closeMenu()"></i>
+      </div>
+      <i class="fa-solid fa-bars" style="color: white; font-size: larger; padding-right:10px" onclick="openMenu()"></i>
+    </div>
+
+
+
+
+
+    <div class="d2 d">
+        <div id="mobile-img">
+            <img src="images/mobile1.png" alt="Mobile image"/>
+        </div>
+        <div id="mobile-text">
+            <p>Play millions of songs <br> and podcasts, for free.</p>
+            <button class="btn">GET SPOTIFY FREE</button>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="d3 d">
+        <p>Why Spotify?</p>
+        <div id="img4">
+            <div>
+                <img src="images/imags4.jpeg" >
+                <p>Play your favorites.</p>
+                <p>Listen to the songs you love, and discover new music and podcasts.</p>
             </div>
-            <div class="box1img1">
-              <img  src="images/image3.jpg" width="60%">
-              <p>Playlists made easy.</p>
-              <p>We'll help you make playlists. Or enjoy playlists made by music experts.</p>
+            <div>
+                <img  src="images/image3.jpg">
+                <p>Playlists made easy.</p>
+                <p>We'll help you make playlists. Or enjoy playlists made by music experts.</p>
             </div>
-            <div class="box1img1">
-              <img  src="images/image5.jpeg" width="60%">
-              <p>Make it yours.</p>
-              <p>Tell us what you like, and we'll recommend music for you.</p>
+            <div>
+                <img  src="images/image5.jpeg">
+                <p>Make it yours.</p>
+                <p>Tell us what you like, and we'll recommend music for you.</p>
             </div>
-            <div class="box1img1">
-              <img  src="images/image1.png" width="60%">
-              <p>Save mobile data.</p>
-              <p>To use less data when you play music, turn on Data Saver in Settings.</p>
-            </div>  
-          </div>
-        </section>  
-      <div class="div3">
-        <h2 class="text3">It's free.<br>No credit card required. </h2>
-      </div class="box2">
-      <div class="div4">
-        <h1 class="text4"> Got questions? </h1>
-        <div class="box2content2">
-          <ul class="list2">
+            <div>
+                <img  src="images/imags4.jpeg">
+                <p>Save mobile data.</p>
+                <p>To use less data when you play music, turn on Data Saver in Settings.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="d4 d">
+        <p>It's free.<br> No credit card required. </p>
+    </div>
+
+
+
+
+
+
+    <div class="d5 d">
+        <p> Got questions? </p>
+
+
+        <details class="" href="">
+            <summary class="help">
+              How do I create a playlist?
+            </summary>
+            <br>
+            <p>Playlists are a great way to save collections of music, either for your own listening or to share.<br>To create one:</p>
+            <br>
+            <ol>
+              <li>1) Tap Your Library.</li>
+              <li>2) Tap CREATE.</li>
+              <li>3) Give your playlist a name.</li>
+              <li>4) Start adding songs (and we'll help you along).</li>
+            </ol>
+          </details>
+
+            <br>
+
             <details class="" href="">
-              <summary class="help">
-                How do I create a playlist?
-              </summary>
-              <p>Playlists are a great way to save collections of music, either for your own listening or to share.<br>To create one:</p>
+              <summary class="help">How do I activate Data Saver mode?</summary>
+              <br>
               <ol>
-                <li>Tap Your Library.</li>
-                <li>Tap CREATE.</li>
-                <li>Give your playlist a name.</li>
-                <li>Start adding songs (and we'll help you along).</li>
+                <li>1)Tap Home.</li>
+                <li>2)Tap Settings.</li>
+                <li>3)Tap Data Saver.</li>
+                <li>4)Switch on Data Saver.</li>
               </ol>
             </details>
+
+            <br>
+
+            <details class="inside" href="">
+              <summary class="help">
+                Is it only possible to shuffle play music?
+              </summary>
               <br>
-              <details class="" href="">
-                <summary class="help">How do I activate Data Saver mode?</summary>
+              <p>Any playlist with the shuffle icon will play on shuffle.
                 <br>
-                <ol>
-                  <li>Tap Home.</li>
-                  <li>Tap Settings.</li>
-                  <li>Tap Data Saver.</li>
-                  <li>Switch on Data Saver.</li>
-                </ol>
-              </details>
-              <br>
-              <details class="inside" href="">
-                <summary class="help">
-                  Is it only possible to shuffle play music?
-                </summary>
-                <p>Any playlist with the shuffle icon will play on shuffle.
-                  <br>
-                  Some playlists won't have the shuffle icon, so you can tap any song to play it.</p>
-                
-              </details><br>
-              <details class="" href=""><p>Tap Search. Under Browse All, tap Podcasts</p><summary class="help">Where can I find Podcasts?</summary><br><br></details>
-          </ul>
-        </div>
-      </div>
-      <div class="div5">
-        <h1 class="text5">Ready? Let's play. </h1>
-        <button class="button2"><a  class="buttonlink2" href="#">GET SPOTIFY FREE</a></button>
-      </div>
-      <div class="div6">
-        <img
-          class="logo1"
-          src="https://upload.wikimedia.org/wikipedia/commons/5/56/Spotify_logo_horizontal_black.jpg"
-          width="150rem"
-        />
-        <div class="float">
-          <div class="div6_1">
-            <h6 class="company">COMPANY</h6>
-            
-              <a class="ul1" href="#">About</a><br><br>
-              <a class="ul1" href="#">Jobs</a><br><br>
-              <a class="ul1" href="#">For the Record</a>
-            
-          </div>
-          <div class="div6_2">
-            <h6 class="Communities"> COMMUNITIES</h6>
-            
-              <a class="ul2" href="#">For Artists</a><br><br>
-              <a class="ul2" href="#">Developers</a><br><br>
-              <a class="ul2" href="#">Advertising</a><br><br>
-              <a class="ul2" href="#">investors</a><br><br>
-              <a class="ul2" href="#">Vendors</a>
-            
-          </div>
-          <div class="div6_3">
-            <h6 class="links">USEFUL LINKS</h6>
-            
-              <a class="ul3" href="#">Support</a><br><br>
-              <a class="ul3" href="#">Web Player</a><br><br>
-              <a class="ul3" href="#">Free Mobile App</a>
-            
-          </div>
-          <div class="div6_4">
-              <a  href="#"><i class="fa-brands fa-facebook ul4"></i></a>
-              <a  href="#"><i class="fa-brands fa-twitter ul4"></i></a>
-              <a  href="#"><i class="fa-brands fa-instagram ul4"></i></a>
+                Some playlists won't have the shuffle icon, so you can tap any song to play it.</p>
               
-              
+            </details>
             
-          </div>
-          </div>
-          <div class="div6_5">
-            
-              <a class="ul5" href="#">Legal</a>
-              <a class="ul5" href="#">Privacy Center</a>
-              <a class="ul5" href="#">Privacy Policy</a>
-              <a class="ul5" href="#">Cookies</a>
-              <a class="ul5" href="#">About Ads</a>
-            
-          </div>
+            <br>
+
+            <details class="" href="">
+                <summary class="help">Where can I find Podcasts?</summary>
+                <br>
+                <p>Tap Search. Under Browse All, tap Podcasts.</p>
+                <br>
+                <br>
+            </details>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="d6 d">
+        <p>Ready? Let's play.</p>
+        <button class="btn">GET SPOTIFY FREE</button>
+    </div>
+
+
+
+
+
+
+    <div class="d7 d">
+
+
+        <div class="bottom-logo">
+            <img
+            src="images/logo.jpg"
+            width="150rem"
+            />
         </div>
-      </div>
-    </main>
+    <div class="left">
+
+        <div class="">
+            <p>COMPANY</p>
+            <ul>
+                <li>About</li>
+                <li>Jobs</li>
+                <li>For the Record</li>
+            </ul>
+        </div>
+
+        <div class="">
+            <p>COMMUNITIES</p>
+            <ul>
+                <li>For Artists</li>
+                <li>Developers</li>
+                <li>Advertising</li>
+                <li>investors</li>
+                <li>Vendors</li>
+            </ul>
+        </div>
+
+        <div class="">
+            <p>USEFUL LINKS</p>
+            <ul>
+                <li>Support</li>
+                <li>Web Player</li>
+                <li>Free Mobile App</li>
+            </ul>
+        </div>
+    </div>
+
+        <div class="right">
+            <a  href="#"><i class="fa-brands fa-facebook ul4"></i></a>
+            <a  href="#"><i class="fa-brands fa-twitter ul4"></i></a>
+            <a  href="#"><i class="fa-brands fa-instagram ul4"></i></a>
+        </div>
+    </div>
+
+
+
+
+ <div class="d8 d">
+    <a class="ul5" href="#">Legal</a>
+    <a class="ul5" href="#">Privacy Center</a>
+    <a class="ul5" href="#">Privacy Policy</a>
+    <a class="ul5" href="#">Cookies</a>
+    <a class="ul5" href="#">About Ads</a>
+ </div>
+</div>
+
+
+<script src="script.js"></script>
   </body>
 </html>
