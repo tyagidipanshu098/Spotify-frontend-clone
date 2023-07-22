@@ -394,7 +394,7 @@ body{
     align-items: start;
     justify-content: start;
     row-gap: 20px;
-    transition: .5s;
+    transition: .3s;
 }
 .fa-xmark, .fa-bars{
     position:relative;
