@@ -374,7 +374,7 @@ body{
         justify-content: space-between;
         background: black;
         min-height: 6vh;
-        max-height: 7vh;
+        max-height: 9vh;
         padding: 0 2%;
     }
     .header-img>a>img{
@@ -394,7 +394,7 @@ body{
     align-items: start;
     justify-content: start;
     row-gap: 20px;
-    transition: .3s;
+    transition: ease-in .3s;
 }
 .fa-xmark, .fa-bars{
     position:relative;
@@ -455,9 +455,11 @@ body{
     font-size: 2.5rem;
     font-weight: bolder;
     margin-bottom: 0px;
+    padding-top: 50px;
     color: white;
     line-height: 1.3;
     width: 90%;
+    padding-top:30px;
 }
 
 
