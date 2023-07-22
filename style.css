@@ -399,6 +399,7 @@ body{
 .fa-xmark, .fa-bars{
     position:relative;
     visibility: visible;
+    transition: 0.3s;
 }
 .item{
     padding-left: 40px;
