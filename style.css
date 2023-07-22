@@ -384,10 +384,11 @@ body{
 .menu{
     display: flex;
     flex-direction: column-reverse;
-    position: absolute;
+    position: fixed;
     background: #000;
     padding-top: 5vh;
     top: 0px;
+    z-index: 2
     right: -400px;
     height: 95vh;
     width: 100%;
