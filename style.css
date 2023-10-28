@@ -349,17 +349,19 @@ body{
     min-width: 30%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 80px;
 }
 
 .right>a>i{
     font-size: xx-large;
-    padding: 0 10px;
+    margin: 10px 10px;
     color:rgb(189, 183, 183);
     transition: .3s;
 }
 .right>a>i:hover{
     font-size: xx-large;
-    padding: 0 10px;
+    margin: 10px 10px;
     color:rgb(6, 151, 43);
     transform: translateY(-5px);
     
